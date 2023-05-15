@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CONTACT | AGENZIA</title>
+</head>
+<body>
+    <header>
+        <p>AGENZIA</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="active" href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+        <div class="contact_first_block">
+            <div>
+                <div>
+                    <h2 class="contact_h2">GET IN TOUCH WITH US</h2>
+                    <p class="contact_p">Tell us more about you here!</p>
+                </div>
+                    <div class="container">
+                        <form action="contact.html">
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="name">NAME</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="name" name="name">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="email">EMAIL ADDRESS</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="email" name="email">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="work">TYPE OF WORK</label>
+                          </div>
+                          <div class="col-75">
+                            <select id="type_of_work" name="type of work">
+                              <option value="work_with_us">I want to work with you</option>
+                              <option value="need_illustration">I need an illustration</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="message">MESSAGE</label>
+                          </div>
+                          <div class="col-75" type="message">
+                            <textarea id="message" name="message" style="height:130px"></textarea>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row" type="send">
+                          <input type="submit" value="SEND">
+                        </div>
+                        </form>
+                    </div>
+            </div>
+            <img class="contact_img1" src="images/contact_1.jpg" alt="Image Contact 1">
+        </div>
+        <img class="contact_img2" src="images/contact_2.jpg" alt="Image Contact 2">
+    </main>
+    <footer> <!-- sistemare responsive-->
+        <h2><a href="index.html">AGENZIA</a></h2>
+        <div>
+            <div>
+                <ul>
+                    <li><a href="http://www.instagram.com">instagram</a></li>
+                    <li><a href="http://www.behance.net">behance</a></li>
+                    <li><a href="mailto:hello@agenzia.com">hello@agenzia.com</a></li>
+                </ul>
+            </div>
+            <p>© 2023 AGENZIA ILLUSTRATION AGENCY - ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+</body>
+</html>

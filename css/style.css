@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+}
+
+body header p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+body nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    display: block;
+}
+
+body nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+body nav ul li:hover {
+    text-decoration: underline;
+}
+
+body nav ul li a.active {
+    text-decoration: underline;
+}
+
+.hero img{
+    margin-top: 35px;
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/hero_background.jpg");
+    height: 500px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hero p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+    color: black;
+    /*background-color: #ffffff;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    text-align: center;
+    transform: translate(0, -275px);
+    width: 1268px;*/
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main section {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.grid {
+    margin: 34px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 22px;
+}
+
+main div.card {
+    background: #fff;
+    border-radius: 10px;
+}
+
+main div.card img {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 385px;
+    width: 100%;
+}
+
+main div img {
+    border-radius: 8px;
+}
+
+main div.card h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    padding: 13px 20px 0px 0px;
+}
+
+main div.card p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+    padding: 0 20px 20px 0px;
+}
+
+footer {
+    background-color: #d9d9d9;
+    margin: 0;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    padding-left: 50px;
+}
+
+footer div {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 27px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+footer div div {
+    padding-right: 50px;
+}
+
+main div.about_first_block img {
+    width: 550px;
+    object-fit: cover;
+    margin-top: 52px;
+}
+
+main div.about_first_block {
+    border-top: 3px solid black;
+    display: flex;
+    margin-top: 30px;
+    gap: 121px;
+}
+
+.about_text1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    gap: 50px;
+}
+
+.about_second_block {
+    display: flex;
+    margin: 0;
+    gap: 121px;
+}
+
+.about_second_block img {
+    width: 550px;
+    object-fit: cover;
+    transform: translate(0px, -100px);
+}
+
+.about_text2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding: 100px 0 0 38px;
+}
+
+.contact_img1 {
+    width: 438px;
+    object-fit: cover;
+    margin-top: 52px;
+}
+
+.contact_h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 52px;
+    margin: 0;
+}
+
+.contact_p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.contact_first_block {
+    border-top: 3px solid black;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_img2 {
+    width: 100%;
+    height: 407px;
+    object-fit: cover;
+    object-position: 0 -280px;
+    border-radius: 8px;
+    margin: 68px 0 100px 0;
+}
+
+input[type=text], select, textarea {
+    width: 458px;
+    padding: 5px;
+    border: 3px solid #d9d9d9;
+    border-radius: 8px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+input[type=submit] {
+    background-color: #d9d9d9;
+    color: white;
+    padding: 5px 30px;
+    border: 3px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover {
+    background-color: black;
+ }
+  
+.container {
+    padding-top: 44px;
+    margin: 0;
+}
+  
+.col-25 {
+    float: left;
+    width: 100%;
+}
+  
+.col-75 {
+    float: left;
+    padding-bottom: 25px;
+}
+  
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0;
+}
+
+.row input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+.row input[type=submit]:hover {
+    color: #d9d9d9;
+}
+
+.col-75 select {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.row[type="send"] {
+    padding-right: 178px;
+}
+
+.col-75[type="message"] {
+    margin: 0;
+    padding: 0;
+}
+
+.col-75 select#type_of_work {
+    width: 475px;
+}
+
+.artist_name {
+    border-top: 3px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.artist_name h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    display: inline;
+    padding-right: 10px;
+}
+
+.artist_name p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    display: inline;
+}
+
+.propic {
+    width: 484px;
+    height: 504px;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 561px;
+}
+
+.bio p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+.artist_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    max-width: 500px;
+    border-radius: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+}
