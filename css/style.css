@@ -356,7 +356,10 @@ input[type=submit]:hover {
 .artist_name {
     border-top: 3px solid black;
     margin-top: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
+    position: sticky;
+    top: -4px;
+    align-self: flex-start;
 }
 
 .artist_name h2 {
@@ -376,19 +379,22 @@ input[type=submit]:hover {
 }
 
 .propic {
-    width: 484px;
-    height: 504px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
 .bio {
     max-width: 561px;
+    position: sticky;
+    top: 65px;
+    align-self: flex-start;
 }
 
 .bio p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px 0;
     line-height: 1.4;
 }
@@ -409,3 +415,49 @@ input[type=submit]:hover {
     gap: 30px;
     margin-bottom: 100px;
 }
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal:target {
+    display: block;
+  }
+  
+  .modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .modal img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .close {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .close:hover {
+    color: #ccc;
+  }
